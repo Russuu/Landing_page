@@ -1,0 +1,38 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    background-color: #1F2937;
+    flex-wrap:wrap;    
+}
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.left-section{
+    display: flex;
+    flex: 1;
+    justify-content:flex-start;
+    align-items: center;
+    margin-left: 200px;
+    color: #F9FAF8;
+    font-size: 24px;
+
+}
+.right-section{
+    display: flex;
+    flex: 1;
+}
+.right-section ul {
+    display: flex;
+    list-style-type: none;
+    flex: 1;
+    justify-content: center;
+    gap: 15px;
+   
+  
+}
